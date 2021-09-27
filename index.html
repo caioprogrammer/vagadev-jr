@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N1 Teste Front-end JR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <header class="header container">
+        <div class="header__content">
+            <div class="header__content-items">
+                <span class="header__menu">
+                    <img src="svgs/icon_hamburguer.svg" alt="Menu">
+
+                    <div class="menu-content">
+                        <button class="only-mobile"
+                            style="border: none; background: transparent;position: absolute;top: 0;left: 0;">
+                            <img src="svgs/close_btn-mobile.svg" alt="">
+                        </button>
+                        <ul>
+                            <h3>Luta</h3>
+                            <li><a href="#">Mortal Kombat</a></li>
+                            <li><a href="#">Smash bros</a></li>
+                            <li><a href="#">Killer Instict</a></li>
+                            <li><a href="#">DBZ Kakarot</a></li>
+                        </ul>
+                        <ul>
+                            <h3>Ação / Aventura</h3>
+                            <li><a href="#">GTA V</a></li>
+                            <li><a href="#">Tomb Raider</a></li>
+                            <li><a href="#">HALO</a></li>
+                            <li><a href="#">Call of Duty</a></li>
+                        </ul>
+                        <ul>
+                            <h3>Corrida</h3>
+                            <li><a href="#">NEED For SPEED</a></li>
+                            <li><a href="#">Forza Horizon</a></li>
+
+                        </ul>
+                    </div>
+                </span>
+                <span class="header__logo">
+                    <img src="svgs/logo-n1.svg" alt="">
+                </span>
+            </div>
+
+            <div class="header__buttons">
+                <div class="header__contact">
+                    <a href="#">
+                        <img src="svgs/paper-plane.svg" alt="">
+                        <span>Contato</span>
+                    </a>
+                </div>
+                <div class="header__search">
+                    <a href="#">
+                        <img src="svgs/search-solid.svg" alt="">
+                        <span>Buscar</span>
+                    </a>
+                    <input type="text" placeholder="Qual jogo você procura?">
+                </div>
+                <div class="header__shopping">
+                    <a href="#"><img src="svgs/shopping-bag-solid.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="banner">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slide-1">
+                    <img src="img/principal_banner_desktop.jpg" alt="">
+                    <div class="banner__conteudo">
+                        <h2 class="banner__name">
+                            MORTAL KOMBAT
+                        </h2>
+                        <span>R$ 299<span class="span">,99</span></span>
+                        <p>Mortal Kombat X combina uma apresentação cinemática única com
+                             uma jogabilidade totalmente nova. Os jogadores podem escolher pela
+                              primeira vez diversas variantes de cada personagem,
+                             afetando tanto a estratégia como o estilo de luta.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slide-2">
+                    <img src="img/principal_banner_desktop_02.jpg" alt="">
+                    <div class="banner__conteudo">
+                        <h2>
+                            RED DEAD REMDEMPTION
+                        </h2>
+                        <span>R$ 289<span class="span">,99</span></span>
+                        <p>Red Dead Redemption combina uma apresentação cinemática única com
+                             uma jogabilidade totalmente nova. Os jogadores podem escolher pela
+                              primeira vez diversas variantes de cada personagem,
+                             afetando tanto a estratégia como o estilo de luta.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+
+    </section>
+
+    <div class="banner__content container">
+        <div class="banner__zelda">
+            <img src="img/zelda_banner.jpg" alt="">
+            <span>The Legend of Zelda - Breath of the Wild</span>
+        </div>
+        <div class="banner__sekiro">
+            <img src="img/sekiro_banner.jpg" alt="">
+            <span>SEKIRO - Shadows die twice</span>
+        </div>
+    </div>
+
+    <section class="products container">
+        <h3 class="products__title">Produtos em destaque</h3>
+
+        <div class="your-class">
+            <div class="product">
+                <div class="product__image">
+                    <img src="img/product-outriders.png" alt="">
+                </div>
+                <div class="product__info">
+                    <h3>Outriders</h3>
+                    <span>R$ 200,00</span>
+                    <button>
+                        <p>COMPRAR</p>
+                        <img src="img/mario.png" alt="">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="product">
+                <div class="product__image">
+                    <img src="img/product-cyberpunk2077.png" alt="">
+                </div>
+                <div class="product__info">
+                    <h3>Outriders</h3>
+                    <span>R$ 200,00</span>
+                    <button>
+                        <p>COMPRAR</p>
+                        <img src="img/mario.png" alt="">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="product">
+                <div class="product__image">
+                    <img src="img/product-donkey-kong-country-tropical-freeze.png" alt="">
+                </div>
+                <div class="product__info">
+                    <h3>Outriders</h3>
+                    <span>R$ 200,00</span>
+                    <button>
+                        <p>COMPRAR</p>
+                        <img src="img/mario.png" alt="">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="product">
+                <div class="product__image">
+                    <img src="img/product-outriders.png" alt="">
+                </div>
+                <div class="product__info">
+                    <h3>Outriders</h3>
+                    <span>R$ 200,00</span>
+                    <button>
+                        <p>COMPRAR</p>
+                        <img src="img/mario.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    
+    <div class="modal">
+        <div class="modal__wrapper">
+            <span class="modal__button">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#F55959" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.597 17.954l-4.591-4.55-4.555 4.596-1.405-1.405 4.547-4.592-4.593-4.552 1.405-1.405 4.588 4.543 4.545-4.589 1.416 1.403-4.546 4.587 4.592 4.548-1.403 1.416z" />
+                    </svg>
+            </span>
+            <div class="modal__text"> Pedido Realizado <br> com sucesso! </div>
+            <img src="img/mario.png" alt="">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="img/logo-footer.png" alt="">
+        </div>
+        <div class="footer__direitos">
+            <span>Agência N1 - Todos os direitos reservados</span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="/slick/slick.js"></script>
+    <script>
+        
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+    </script>
+</body>
+
+</html>
